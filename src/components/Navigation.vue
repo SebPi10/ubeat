@@ -13,7 +13,7 @@
       <ul class="nav nav-right">
         <li class="nav-item">
           <div class="input-group navSearchDropdown">
-            <span class="input-group-addon fa fa-search">S</span>
+            <span class="input-group-addon fa fa-search"></span>
             <input id="navInputSearch" type="text" class="form-control" placeholder="Search..." aria-label="Search..."
                    onkeyup="filterNavSearch();" onfocus="onFocusInputSearch();">
             <span class="input-group-btn">
