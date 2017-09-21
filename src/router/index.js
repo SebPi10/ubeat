@@ -6,6 +6,7 @@ import Artist from '@/components/Artist';
 
 Vue.use(Router);
 
+
 export default new Router({
   routes: [
     {
