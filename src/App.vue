@@ -20,7 +20,7 @@
   /** Body **/
   body {
     padding: 0;
-    background-color: orange;
+    background-color: #e6e6e6;
   }
 
   /** Footer **/
@@ -28,7 +28,7 @@
     bottom: 0;
     width: 100%;
     position: fixed;
-    background-color: deeppink;
+    background-color: #e6e6e6;
   }
 
   #footer #music_zone {
@@ -39,14 +39,18 @@
     width: 60%;
     height: 100px;
     align-self: flex-start;
-    background-color: blue;
+    background-color: #383838;
+    border: #20B2AA solid 1px;
+    border-radius: 5px;
   }
 
   #footer #music_zone #music_info_zone {
     width: 40%;
     height: 100px;
     align-self: flex-end;
-    background-color: chartreuse;
+    background-color: #383838;
+    border: #20B2AA solid 1px;
+    border-radius: 5px;
   }
 
   #footer #copyright_zone {
@@ -57,6 +61,6 @@
 
   #footer #copyright_zone p {
     margin: 2px 0 2px 0;
-    color: yellow
+    color: #000000;
   }
 </style>
