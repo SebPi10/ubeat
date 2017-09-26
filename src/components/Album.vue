@@ -38,7 +38,7 @@
           </tr>
 
           <tr class="tab_song">
-            <td> class="title_song">Believer</td>
+            <td class="title_song"> Believer</td>
             <td class="no_song">1</td>
             <td class="artist_song">Imagine Dragons</td>
             <td class="album_song">Evolve</td>
@@ -126,6 +126,10 @@
     justify-content:flex-start;
   }
 
+  .main_container {
+    height: inherit;
+    overflow: auto;
+  }
 
   /*h1{*/
   /*display:flex;*/
