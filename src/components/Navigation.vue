@@ -41,7 +41,7 @@
         <router-link to="/artist">Artists</router-link>
         <router-link to="/album">Albums</router-link>
         <a href="#">Users</a>
-        <a href="#">About</a>
+        <router-link to="/about">About</router-link>
       </div>
     </nav>
     <div id="navSearchList">
@@ -65,8 +65,7 @@
   }
 
   /*Test***********************/
-  #header #btn_menu
-  {
+  #header #btn_menu {
     height: 100%;
     width: 100%;
     top: 0;
@@ -76,6 +75,7 @@
     opacity: 0;
     cursor: pointer;
   }
+
   /***********************/
 
   #principal_nav #img_logo {

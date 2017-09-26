@@ -7,7 +7,11 @@
       </div>
 
       <div id="album_info">
-        <div id="album_artist"><h2 class="artist_name">Imagine Dragons</h2></div>
+        <div id="album_artist">
+          <h2>
+            <router-link to="/artist">Imagine Dragons</router-link>
+          </h2>
+        </div>
         <div id="album_title"><h4>Evolve</h4></div>
         <div id="album_date">Relese : march 2017</div>
         <div id="album_nb_song">10 Songs</div>
@@ -21,12 +25,7 @@
           src="../assets/img/iTunes.png" class="get_on_iTunes"/></a>
       </div>
     </div>
-
-    <p></p>
-    <p></p>
-
-
-    <div id="song_container" class="song_list">
+    <div id="songs_container" class="song_list">
       <table id="album_songs">
         <tr id="tab_song_header">
           <th>No</th>
@@ -160,16 +159,12 @@
               class="fa fa-plus"></span></button>
           </td>
         </tr>
-
       </table>
-
     </div>
-
   </div>
 </template>
 
 <style>
-
   #album_container {
     display: flex;
   }
@@ -181,18 +176,15 @@
   #album_picture #album_image {
     width: 35vh;
     height: 35vh;
+    margin: auto;
   }
 
-  #album_songs {
-    width: 100%;
-  }
-
-  #itunes_logo {
-    flex: auto;
-  }
-
-  #album_artist .artist_name {
+  #album_artist h2 {
     margin-top: 0;
+  }
+
+  #album_artist h2 a {
+    color: #383838;
   }
 
   #album_info {
@@ -204,11 +196,16 @@
     justify-content: flex-start;
   }
 
-  .main_container {
-    overflow: auto;
+  #songs_container {
+    padding-top: 20px;
   }
 
-  #album_songs th {
+  #album_songs {
+    width: 100%;
+  }
+
+  #album_songs th,
+  #album_songs td {
     text-align: center;
   }
 
@@ -225,6 +222,14 @@
   .song_button:hover {
     background-color: #383838;
     color: #ffffff;
+  }
+
+  .main_container {
+    overflow: auto;
+  }
+
+  #itunes_logo {
+    flex: auto;
   }
 
   .get_on_iTunes {

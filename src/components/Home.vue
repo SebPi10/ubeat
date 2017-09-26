@@ -1,8 +1,13 @@
 <template>
   <div class="main_container">
-    <h1>Home</h1>
-    <div>GLO-3102 Home</div>
+    <h1>Welcome Username</h1>
+    <div id="home_container">
+
+    </div>
   </div>
 </template>
 <style>
+  .main_container {
+    overflow: auto;
+  }
 </style>
