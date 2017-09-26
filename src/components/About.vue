@@ -21,7 +21,7 @@
         <div id="about_us_text">
           <div id="about_us_title"><h2>But, what about us ?</h2></div>
           <div id="team_about_us_txt">
-            <h3>Team</h3>
+            <h3>Our team</h3>
             <div>
               <ul>
                 <li>Assane Faye Sene</li>
