@@ -18,7 +18,8 @@
         </div>
 
         <div>
-          <button class="iTune" onclick=""><img src="../assets/img/Get_it_on_iTunes.svg"> </button>
+          <!--<button class="iTune" onclick="href = https://itunes.apple.com/us/artist/imagine-dragons/id358714030""><img src="../assets/img/Get_it_on_iTunes.svg"> </button>-->
+          <a href="https://itunes.apple.com/us/artist/imagine-dragons/id358714030"><img src="../assets/img/iTunes.png" class="get_on_iTunes" /></a>
         </div>
       </div>
 
