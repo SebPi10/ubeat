@@ -26,7 +26,7 @@
       <p></p>
 
 
-      <div id="song_container">
+      <div id="song_container" class="song_list">
         <table>
           <tr id="tab_song_header">
             <th>Title</th>
@@ -127,8 +127,11 @@
   }
 
   .main_container {
-    height: inherit;
     overflow: auto;
+  }
+
+  .song_list {
+    //display: flex;
   }
 
   /*h1{*/
