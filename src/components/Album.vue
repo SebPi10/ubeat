@@ -130,10 +130,6 @@
     overflow: auto;
   }
 
-  .song_list {
-    //display: flex;
-  }
-
   /*h1{*/
   /*display:flex;*/
   /*justify-content:center;*/
