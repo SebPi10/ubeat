@@ -7,13 +7,16 @@
 
 <script>
   import Navigation from '@/components/Navigation';
+  import Album from '@/components/Album';
 
   export default {
     name: 'app',
     components: {
-      'nav-menu': Navigation
+      'nav-menu': Navigation,
+      'album-view': Album
     }
   };
+
 </script>
 
 <style>
