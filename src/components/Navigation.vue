@@ -36,6 +36,7 @@
     </nav>
     <nav id="secondary_nav">
       <div id="side_menu">
+        <router-link to="/">Home</router-link>
         <a href="#">Playlists</a>
         <router-link to="/artist">Artists</router-link>
         <router-link to="/album">Albums</router-link>
@@ -131,7 +132,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #ffffff;
   }
 
   #principal_nav .nav > li > a.nav_eleme:hover {
